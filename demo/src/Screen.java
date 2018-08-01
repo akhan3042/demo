@@ -16,6 +16,7 @@ public class Screen {
 		TakesScreenshot t=(TakesScreenshot) d;
 		File src = t.getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src, new File("F:\\selenium\\demo\\screen1\\1.png"));
+		System.out.println("kkkkk");
 
 
 	}
